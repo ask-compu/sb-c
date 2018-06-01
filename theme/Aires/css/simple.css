@@ -1,0 +1,21 @@
+/* Aries v1.0 - by WowThemes.net 
+Additional CSS for simple GS template */
+
+.intro {
+	height:30px;
+	padding: 0;
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88));
+}
+
+@media(min-width:768px) {
+	.intro {
+		height:90px;
+		padding:0;
+	}
+
+@media(min-width:767px) {
+	.content-section {
+		padding:50px 0;
+			 clear:both;
+	}
+}

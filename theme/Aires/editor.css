@@ -1,0 +1,187 @@
+/* Aries v1.0 - by WowThemes.net */
+body {
+	width:100%;
+	height:100%;
+	font-family:Open Sans,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	background-color:#f9f9f9;
+	color:#333;
+	font-weight:300;
+}
+html {
+	width:100%;
+	height:100%;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin:0 0 35px;
+	text-transform:uppercase;
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight:700;
+	letter-spacing:1px;
+}
+p {
+	margin:0 0 25px;
+	font-size:18px;
+	line-height:1.5;
+}
+@media(min-width:768px) {
+	p {
+		margin:0 0 35px;
+		font-size:20px;
+		line-height:1.6;
+	}
+}
+a {
+	color:inherit;
+}
+a:hover,a:focus {
+	text-decoration:none;
+	color:inherit;
+}
+
+.text-center {
+    text-align: center;
+
+.btn-circle {
+	width:50px;
+	height:50px;
+	margin-top:15px;
+	line-height:40px;
+	text-align:center;
+	border:2px solid #fff;
+	border-radius:100%!important;
+	font-size:20px;
+	color:#fff;
+	background:0 0;
+}
+.btn-circle:hover,.btn-circle:focus {
+	outline:0;
+	color:#fff;
+	background:rgba(255,255,255,.1);
+}
+
+.btn {
+	border-radius:0;
+	text-transform:uppercase;
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight:400;
+	-webkit-transition:all .3s ease-in-out;
+	-moz-transition:all .3s ease-in-out;
+	transition:all .3s ease-in-out;
+}
+.btn-default {
+	border:1px solid #42dca3;
+	color:#42dca3;
+	background-color:transparent;
+}
+.btn-default:hover,.btn-default:focus {
+	border:1px solid #42dca3;
+	outline:0;
+	color:#000;
+	background-color:#42dca3;
+}
+.btnghost {
+	border:2px solid #333;
+	background-color:transparent;
+	padding:15px 20px;
+	letter-spacing:3px;
+	font-size:12px;
+	text-transform:uppercase;
+	font-weight:400;
+	color:#333;
+	margin-top:20px;
+	display:inline-block;
+}
+.btnghost:hover {
+	background-color:#333;
+	color:#fff;
+	border:2px solid #333;
+}
+img {
+	max-width:100%;
+}
+.gallery ul {
+	padding:0;
+	margin:0;
+}
+.gallery img {
+	max-width:100%;
+	height:auto;
+	padding:0;
+	margin:0;
+}
+.gallery ul li {
+	margin:0;
+	position:relative;
+	list-style:none;
+	float:left;
+	padding:0;
+}
+.gallery ul li a {
+	display:block;
+	position:relative;
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	line-height:0;
+}
+.gallery ul li a:before {
+	position:absolute;
+	width:32px;
+	height:32px;
+	top:40%;
+	left:50%;
+	margin:-14px 0 0 -16px;
+	content:"";
+	opacity:0;
+	z-index:1;
+}
+.gallery ul li a:hover:before {
+	top:50%;
+	opacity:1;
+}
+.gallery ul li a:after {
+	position:absolute;
+	width:100%;
+	top:0;
+	bottom:0;
+	background:rgba(0,0,0,0.3);
+	content:"";
+	opacity:0;
+}
+.gallery ul li a:hover:after {
+	opacity:1;
+}
+section:after {
+	float:none;
+	clear:both;
+}
+
+#contactform input,#contactform textarea {
+	border:0px;
+	border-bottom:2px solid #333;
+	width:100%;
+	background-color:transparent;
+	padding:20px 0px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	margin-bottom:20px;
+}
+#contactform input#submit {
+	width:auto;
+	border:2px solid;
+	padding:10px 20px;
+	display:inline-block;
+}
+#contactform input#submit:hover {
+	background-color:#333;
+	color:#fff;
+	border:2px solid #333;
+}
+#contactform input:focus,#contactform input:active,#contactform textarea:focus,#contactform textarea:active {
+	border-top:0px;
+	border-bottom:2px solid lightseagreen;
+	outline:0;
+	outline: none;
+}
+

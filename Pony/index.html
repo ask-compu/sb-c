@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Live Streaming</title>
+
+<!--
+    <link href="//vjs.zencdn.net/5.8/video-js.min.css" rel="stylesheet">
+    <script src="//vjs.zencdn.net/5.8/video.min.js"></script>
+
+<script src="http://cdn.dashjs.org/latest/dash.mediaplayer.min.js"></script>
+
+<script type="text/javascript" src="https://bitmovin-a.akamaihd.net/bitmovin-player/stable/7.3/bitmovinplayer.js"></script>
+-->
+<script type="text/javascript" src="https://cdn.viblast.com/vb/stable/viblast.js"></script>
+    
+</head>
+<body>
+
+
+ViBlast: <br/>
+
+<video
+  controls
+  height="400"
+  width="550"
+  src="stream/stream.m3u8"
+  data-viblast-key="54d009ba-8d4a-4493-96a0-5da8c9244df2"
+  data-viblast-enable-realtime-logger="true"
+  autoplay
+>
+
+</video>
+
+<!--
+
+<video id="player" class="video-js vjs-default-skin" height="360" width="640" controls preload="none">
+    <source src="stream/stream.m3u8" type="application/x-mpegURL" />
+</video>
+<script>
+    var player = videojs('#player');
+</script>
+
+DASH player: <br/>
+
+<video data-dashjs-player src="stream/stream.mpd" controls="true"></video>
+      
+
+Bitmovin player: <br/>
+
+<div id="Bitmovin-player"></div>
+<script type="text/javascript">
+var conf = {
+   key: "648752f5-ad81-4e9f-8f60-77ada7c14d3f",
+   source: {
+      dash: "stream/stream.mpd",
+      hls: "stream/stream.m3u8",
+      title: "Pony Stream",
+      description: "Description here :)"
+   }
+
+};
+
+var player = bitmovin.player('Bitmovin-player');
+
+
+
+player.setup(conf).then(function(playerInstance) {
+	console.log('Successfully created Bitmovin Player instance');
+}, function(reason) {
+	console.log('Error while creating Bitmovin Player instance');
+});
+
+</script>
+
+-->
+</body>
+</html>

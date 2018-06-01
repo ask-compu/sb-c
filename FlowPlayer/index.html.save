@@ -1,0 +1,20 @@
+<script type="text/javascript" src="https://bitmovin-a.akamaihd.net/bitmovin-player/stable/7.5/bitmovinplayer.js"></script>
+
+<div id="player"></div>
+<script type="text/javascript">
+    var conf = {
+        key:       "648752f5-ad81-4e9f-8f60-77ada7c14d3f",
+        source: {
+          
+          hls:         "//bitmovin-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8",
+        }
+    };
+    var player = bitmovin.player("player");
+    player.setup(conf).then(function(value) {
+        // Success
+        console.log("Successfully created bitmovin player instance");
+    }, function(reason) {
+        // Error!
+        console.log("Error while creating bitmovin player instance");
+    });
+</script>

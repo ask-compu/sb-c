@@ -1,0 +1,472 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'flowplayer/flowplayer-hlsjs' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'flowplayer/flowplayer-hlsjs', null ]
+5 verbose cache add name=undefined spec="flowplayer/flowplayer-hlsjs" args=["flowplayer/flowplayer-hlsjs",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'flowplayer/flowplayer-hlsjs',
+6 verbose parsed url   path: 'flowplayer/flowplayer-hlsjs',
+6 verbose parsed url   href: 'flowplayer/flowplayer-hlsjs' }
+7 silly makeCacheDir cache dir uid, gid [ 0, 0 ]
+8 silly lockFile 2ef95f7b-flowplayer-flowplayer-hlsjs flowplayer/flowplayer-hlsjs
+9 verbose lock flowplayer/flowplayer-hlsjs /root/.npm/2ef95f7b-flowplayer-flowplayer-hlsjs.lock
+10 info maybeGithub Attempting flowplayer/flowplayer-hlsjs from git://github.com/flowplayer/flowplayer-hlsjs
+11 silly lockFile 277cae15--com-flowplayer-flowplayer-hlsjs git://github.com/flowplayer/flowplayer-hlsjs
+12 verbose lock git://github.com/flowplayer/flowplayer-hlsjs /root/.npm/277cae15--com-flowplayer-flowplayer-hlsjs.lock
+13 verbose addRemoteGit [ 'git://github.com/flowplayer/flowplayer-hlsjs', 'master' ]
+14 verbose git clone git://github.com/flowplayer/flowplayer-hlsjs Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-flowplayer-flowplayer-hlsjs-277cae15'...
+15 verbose git fetch -a origin (git://github.com/flowplayer/flowplayer-hlsjs)
+16 verbose git rev-list -n1 master 4295710b044aa5edc96682556bb4ae127f6d49a5
+17 verbose resolved git url git://github.com/flowplayer/flowplayer-hlsjs#4295710b044aa5edc96682556bb4ae127f6d49a5
+18 verbose tar unpack /root/tmp/npm-1452-XGJX8dwv/1516779131624-0.6358192206826061/tmp.tgz
+19 silly lockFile a46f377b-31624-0-6358192206826061-package tar:///root/tmp/npm-1452-XGJX8dwv/1516779131624-0.6358192206826061/package
+20 verbose lock tar:///root/tmp/npm-1452-XGJX8dwv/1516779131624-0.6358192206826061/package /root/.npm/a46f377b-31624-0-6358192206826061-package.lock
+21 silly lockFile 642de43a-31624-0-6358192206826061-tmp-tgz tar:///root/tmp/npm-1452-XGJX8dwv/1516779131624-0.6358192206826061/tmp.tgz
+22 verbose lock tar:///root/tmp/npm-1452-XGJX8dwv/1516779131624-0.6358192206826061/tmp.tgz /root/.npm/642de43a-31624-0-6358192206826061-tmp-tgz.lock
+23 silly gunzTarPerm modes [ '755', '644' ]
+24 silly gunzTarPerm extractEntry
+25 silly gunzTarPerm modified mode [ '', 509, 493 ]
+26 silly gunzTarPerm extractEntry .gitignore
+27 silly gunzTarPerm modified mode [ '.gitignore', 436, 420 ]
+28 silly gunzTarPerm extractEntry LICENSE.md
+29 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+30 silly gunzTarPerm extractEntry Makefile
+31 silly gunzTarPerm modified mode [ 'Makefile', 436, 420 ]
+32 silly gunzTarPerm extractEntry README.md
+33 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+34 silly gunzTarPerm extractEntry flowplayer.hlsjs.js
+35 silly gunzTarPerm modified mode [ 'flowplayer.hlsjs.js', 436, 420 ]
+36 silly gunzTarPerm extractEntry flowplayer.hlsjs.light.js
+37 silly gunzTarPerm modified mode [ 'flowplayer.hlsjs.light.js', 436, 420 ]
+38 silly gunzTarPerm extractEntry footConditionalComment.js
+39 silly gunzTarPerm modified mode [ 'footConditionalComment.js', 436, 420 ]
+40 silly gunzTarPerm extractEntry headConditionalComment.js
+41 silly gunzTarPerm modified mode [ 'headConditionalComment.js', 436, 420 ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+44 silly gunzTarPerm extractEntry standalone.js
+45 silly gunzTarPerm modified mode [ 'standalone.js', 436, 420 ]
+46 silly gunzTarPerm extractEntry standalone.light.js
+47 silly gunzTarPerm modified mode [ 'standalone.light.js', 436, 420 ]
+48 silly gunzTarPerm extractEntry webpack.config.js
+49 silly gunzTarPerm modified mode [ 'webpack.config.js', 436, 420 ]
+50 silly gunzTarPerm extractEntry webpack.light.js
+51 silly gunzTarPerm modified mode [ 'webpack.light.js', 436, 420 ]
+52 silly lockFile a46f377b-31624-0-6358192206826061-package tar:///root/tmp/npm-1452-XGJX8dwv/1516779131624-0.6358192206826061/package
+53 silly lockFile a46f377b-31624-0-6358192206826061-package tar:///root/tmp/npm-1452-XGJX8dwv/1516779131624-0.6358192206826061/package
+54 silly lockFile 642de43a-31624-0-6358192206826061-tmp-tgz tar:///root/tmp/npm-1452-XGJX8dwv/1516779131624-0.6358192206826061/tmp.tgz
+55 silly lockFile 642de43a-31624-0-6358192206826061-tmp-tgz tar:///root/tmp/npm-1452-XGJX8dwv/1516779131624-0.6358192206826061/tmp.tgz
+56 verbose tar pack [ '/root/.npm/flowplayer-hlsjs/1.1.1/package.tgz',
+56 verbose tar pack   '/root/tmp/npm-1452-XGJX8dwv/1516779131624-0.6358192206826061/package' ]
+57 verbose tarball /root/.npm/flowplayer-hlsjs/1.1.1/package.tgz
+58 verbose folder /root/tmp/npm-1452-XGJX8dwv/1516779131624-0.6358192206826061/package
+59 silly lockFile a46f377b-31624-0-6358192206826061-package tar:///root/tmp/npm-1452-XGJX8dwv/1516779131624-0.6358192206826061/package
+60 verbose lock tar:///root/tmp/npm-1452-XGJX8dwv/1516779131624-0.6358192206826061/package /root/.npm/a46f377b-31624-0-6358192206826061-package.lock
+61 silly lockFile c616cdbd-owplayer-hlsjs-1-1-1-package-tgz tar:///root/.npm/flowplayer-hlsjs/1.1.1/package.tgz
+62 verbose lock tar:///root/.npm/flowplayer-hlsjs/1.1.1/package.tgz /root/.npm/c616cdbd-owplayer-hlsjs-1-1-1-package-tgz.lock
+63 silly lockFile a46f377b-31624-0-6358192206826061-package tar:///root/tmp/npm-1452-XGJX8dwv/1516779131624-0.6358192206826061/package
+64 silly lockFile a46f377b-31624-0-6358192206826061-package tar:///root/tmp/npm-1452-XGJX8dwv/1516779131624-0.6358192206826061/package
+65 silly lockFile c616cdbd-owplayer-hlsjs-1-1-1-package-tgz tar:///root/.npm/flowplayer-hlsjs/1.1.1/package.tgz
+66 silly lockFile c616cdbd-owplayer-hlsjs-1-1-1-package-tgz tar:///root/.npm/flowplayer-hlsjs/1.1.1/package.tgz
+67 silly lockFile 10ee6960-m-flowplayer-hlsjs-1-1-1-package /root/.npm/flowplayer-hlsjs/1.1.1/package
+68 verbose lock /root/.npm/flowplayer-hlsjs/1.1.1/package /root/.npm/10ee6960-m-flowplayer-hlsjs-1-1-1-package.lock
+69 silly lockFile 10ee6960-m-flowplayer-hlsjs-1-1-1-package /root/.npm/flowplayer-hlsjs/1.1.1/package
+70 silly lockFile 10ee6960-m-flowplayer-hlsjs-1-1-1-package /root/.npm/flowplayer-hlsjs/1.1.1/package
+71 verbose tar unpack /root/.npm/flowplayer-hlsjs/1.1.1/package.tgz
+72 silly lockFile d2d51a49-m-flowplayer-hlsjs-1-1-1-package tar:///root/.npm/flowplayer-hlsjs/1.1.1/package
+73 verbose lock tar:///root/.npm/flowplayer-hlsjs/1.1.1/package /root/.npm/d2d51a49-m-flowplayer-hlsjs-1-1-1-package.lock
+74 silly lockFile c616cdbd-owplayer-hlsjs-1-1-1-package-tgz tar:///root/.npm/flowplayer-hlsjs/1.1.1/package.tgz
+75 verbose lock tar:///root/.npm/flowplayer-hlsjs/1.1.1/package.tgz /root/.npm/c616cdbd-owplayer-hlsjs-1-1-1-package-tgz.lock
+76 silly gunzTarPerm modes [ '755', '644' ]
+77 silly gunzTarPerm extractEntry package.json
+78 silly gunzTarPerm extractEntry .npmignore
+79 silly gunzTarPerm extractEntry README.md
+80 silly gunzTarPerm extractEntry webpack.config.js
+81 silly gunzTarPerm extractEntry flowplayer.hlsjs.js
+82 silly gunzTarPerm extractEntry flowplayer.hlsjs.light.js
+83 silly gunzTarPerm extractEntry standalone.light.js
+84 silly gunzTarPerm extractEntry headConditionalComment.js
+85 silly gunzTarPerm extractEntry standalone.js
+86 silly gunzTarPerm extractEntry webpack.light.js
+87 silly gunzTarPerm extractEntry footConditionalComment.js
+88 silly gunzTarPerm extractEntry LICENSE.md
+89 silly gunzTarPerm extractEntry Makefile
+90 silly lockFile d2d51a49-m-flowplayer-hlsjs-1-1-1-package tar:///root/.npm/flowplayer-hlsjs/1.1.1/package
+91 silly lockFile d2d51a49-m-flowplayer-hlsjs-1-1-1-package tar:///root/.npm/flowplayer-hlsjs/1.1.1/package
+92 silly lockFile c616cdbd-owplayer-hlsjs-1-1-1-package-tgz tar:///root/.npm/flowplayer-hlsjs/1.1.1/package.tgz
+93 silly lockFile c616cdbd-owplayer-hlsjs-1-1-1-package-tgz tar:///root/.npm/flowplayer-hlsjs/1.1.1/package.tgz
+94 verbose chmod /root/.npm/flowplayer-hlsjs/1.1.1/package.tgz 644
+95 verbose chown /root/.npm/flowplayer-hlsjs/1.1.1/package.tgz [ 0, 0 ]
+96 silly lockFile 277cae15--com-flowplayer-flowplayer-hlsjs git://github.com/flowplayer/flowplayer-hlsjs
+97 silly lockFile 277cae15--com-flowplayer-flowplayer-hlsjs git://github.com/flowplayer/flowplayer-hlsjs
+98 silly lockFile 2ef95f7b-flowplayer-flowplayer-hlsjs flowplayer/flowplayer-hlsjs
+99 silly lockFile 2ef95f7b-flowplayer-flowplayer-hlsjs flowplayer/flowplayer-hlsjs
+100 silly resolved [ { name: 'flowplayer-hlsjs',
+100 silly resolved     version: '1.1.1',
+100 silly resolved     description: 'Flowplayer HLS.js plugin',
+100 silly resolved     main: 'flowplayer.hlsjs.js',
+100 silly resolved     scripts:
+100 silly resolved      { test: 'echo "Error: no test specified" && exit 1',
+100 silly resolved        lint: 'jslint --edition=latest --devel flowplayer.hlsjs.js flowplayer.hlsjs.light.js',
+100 silly resolved        build: 'webpack',
+100 silly resolved        light: 'webpack --config ./webpack.light.js' },
+100 silly resolved     repository:
+100 silly resolved      { type: 'git',
+100 silly resolved        url: 'https://github.com/flowplayer/flowplayer-hlsjs' },
+100 silly resolved     author: '',
+100 silly resolved     license: 'MIT',
+100 silly resolved     bugs: { url: 'https://github.com/flowplayer/flowplayer-hlsjs/issues' },
+100 silly resolved     homepage: 'https://github.com/flowplayer/flowplayer-hlsjs',
+100 silly resolved     dependencies:
+100 silly resolved      { 'hls.js': '0.8.4',
+100 silly resolved        'text-encoding': 'https://github.com/aiham/text-encoding#remove-encoding-indexes',
+100 silly resolved        'webworkify-webpack': '^1.0.4' },
+100 silly resolved     peerDependencies: { flowplayer: '^6.0.3 || ^7.0.2' },
+100 silly resolved     devDependencies:
+100 silly resolved      { 'babel-core': '^6.5.1',
+100 silly resolved        'babel-loader': '^6.2.2',
+100 silly resolved        'babel-preset-es2015': '^6.5.0',
+100 silly resolved        jslint: '^0.9.5',
+100 silly resolved        'url-toolkit': '^1.0.4',
+100 silly resolved        webpack: '^1.12.13',
+100 silly resolved        'wrapper-webpack-plugin': '^0.1.7' },
+100 silly resolved     jshintConfig: { undef: true },
+100 silly resolved     readme: 'Flowplayer hlsjs plugin\n===========================\n\nThis plugin provides the `hlsjs` [engine](https://flowplayer.org/docs/api.html#engines) for\nplayback of [HLS](https://flowplayer.org/docs/setup.html#hls) streams in browsers which do not\nsupport playback of HLS in a VIDEO tag, and without the need for\n[Flash](https://flowplayer.org/docs/setup.html#flash-hls).\n\nThe plugin relies on the [hls.js](https://github.com/video-dev/hls.js) client library.\n\nUsage\n-----\n\nSee: https://flowplayer.org/docs/plugins.html#hlsjs\n\n- [compatibility](https://flowplayer.org/docs/plugins.html#hlsjs-compatibility)\n- [loading the assets](https://flowplayer.org/docs/plugins.html#hlsjs-assets)\n- [configuration](https://flowplayer.org/docs/plugins.html#hlsjs-configuration)\n- [hlsjs options](https://flowplayer.org/docs/plugins.html#hlsjs-options)\n- [hlsjs API](https://flowplayer.org/docs/plugins.html#hlsjs-api)\n\n### Installation\n\nThe plugin can be installed with:\n\n```\nnpm install --save flowplayer/flowplayer-hlsjs\n```\n\n### CommonJS\n\nThe plugin can be used in a [browserify](http://browserify.org) and/or\n[webpack](https://webpack.github.io/) environment with a\n[commonjs](http://requirejs.org/docs/commonjs.html) loader:\n\n```js\nvar flowplayer = require(\'flowplayer\');\nvar engine = require(\'flowplayer-hlsjs\');\nengine(flowplayer);\n\nflowplayer(\'#container\', {\n  clip: {\n    sources: [{\n      type: \'application/x-mpegurl\',\n      src: \'//stream.flowplayer.org/bauhaus.m3u8\'\n    }]\n  }\n});\n```\n\nDemo\n----\n\nA fully documented demo can be found [here](http://demos.flowplayer.org/api/hlsjs.html).\n\nFeatures\n--------\n\n- packs a compatibility tested version - current:\n  [v0.8.4](https://github.com/video-dev/hls.js/releases/tag/v0.8.4) - of hls.js\n- by default the engine is only loaded if the browser supports\n  [MediaSource extensions](http://w3c.github.io/media-source/) reliably for playback\n- configurable manual HLS quality selection\n- manual audio track selection and optional audio ABR\n- display of HLS subtitles, Flowplayer style or native\n- ID3 metadata processing to string\n- optional light build - `flowplayer.hlsjs.light.min.js` - without multiple audio track, subtitles,\n  and ID3 support\n\nDebugging\n---------\n\nA quick way to find out whether there\'s a problem with the actual plugin component is to\nrun your stream in the [hls.js demo player](http://streambox.fr/mse/hls.js-0.8.4/demo/).\n\nFor fine grained debugging load the unminified components and turn hlsjs debugging on:\n\n```html\n<script src="//releases.flowplayer.org/7.1.0/flowplayer.min.js"></script>\n<!-- test a hls.js release -->\n<script src="//cdnjs.cloudflare.com/ajax/libs/hls.js/0.8.4/hls.min.js"></script>\n<!-- separate hlsjs plugin component -->\n<script src="//releases.flowplayer.org/hlsjs/flowplayer.hlsjs.light.js"></script>\n\n<script>\n// turn on hlsjs debugging\nflowplayer.conf.hlsjs = {\n  debug: true\n};\n</script>\n```\n\nIf you need to debug features only available from the\n[full plugin](https://flowplayer.com/docs/plugins.html#hlsjs-assets) you have to\n[build](https://github.com/flowplayer/flowplayer-hlsjs#building-the-plugin) the plugin.\n\n### Building the plugin\n\nBuild requirement:\n\n- [nodejs](https://nodejs.org) with [npm](https://www.npmjs.com)\n\n```sh\ncd flowplayer-hlsjs\nmake deps\nmake\n```\n',
+100 silly resolved     readmeFilename: 'README.md',
+100 silly resolved     _id: 'flowplayer-hlsjs@1.1.1',
+100 silly resolved     dist: { shasum: 'bdcd086bbb5624c9b5cd7100bb088947646e9843' },
+100 silly resolved     _resolved: 'git://github.com/flowplayer/flowplayer-hlsjs#4295710b044aa5edc96682556bb4ae127f6d49a5',
+100 silly resolved     _from: 'git://github.com/flowplayer/flowplayer-hlsjs',
+100 silly resolved     _fromGithub: true } ]
+101 info install flowplayer-hlsjs@1.1.1 into /var/www/FlowPlayer
+102 info installOne flowplayer-hlsjs@1.1.1
+103 info /var/www/FlowPlayer/node_modules/flowplayer-hlsjs unbuild
+104 verbose tar unpack /root/.npm/flowplayer-hlsjs/1.1.1/package.tgz
+105 silly lockFile c2ffd8df-er-node-modules-flowplayer-hlsjs tar:///var/www/FlowPlayer/node_modules/flowplayer-hlsjs
+106 verbose lock tar:///var/www/FlowPlayer/node_modules/flowplayer-hlsjs /root/.npm/c2ffd8df-er-node-modules-flowplayer-hlsjs.lock
+107 silly lockFile c616cdbd-owplayer-hlsjs-1-1-1-package-tgz tar:///root/.npm/flowplayer-hlsjs/1.1.1/package.tgz
+108 verbose lock tar:///root/.npm/flowplayer-hlsjs/1.1.1/package.tgz /root/.npm/c616cdbd-owplayer-hlsjs-1-1-1-package-tgz.lock
+109 silly gunzTarPerm modes [ '755', '644' ]
+110 silly gunzTarPerm extractEntry package.json
+111 silly gunzTarPerm extractEntry .npmignore
+112 silly gunzTarPerm extractEntry README.md
+113 silly gunzTarPerm extractEntry webpack.config.js
+114 silly gunzTarPerm extractEntry flowplayer.hlsjs.js
+115 silly gunzTarPerm extractEntry flowplayer.hlsjs.light.js
+116 silly gunzTarPerm extractEntry standalone.light.js
+117 silly gunzTarPerm extractEntry headConditionalComment.js
+118 silly gunzTarPerm extractEntry standalone.js
+119 silly gunzTarPerm extractEntry webpack.light.js
+120 silly gunzTarPerm extractEntry footConditionalComment.js
+121 silly gunzTarPerm extractEntry LICENSE.md
+122 silly gunzTarPerm extractEntry Makefile
+123 silly lockFile c2ffd8df-er-node-modules-flowplayer-hlsjs tar:///var/www/FlowPlayer/node_modules/flowplayer-hlsjs
+124 silly lockFile c2ffd8df-er-node-modules-flowplayer-hlsjs tar:///var/www/FlowPlayer/node_modules/flowplayer-hlsjs
+125 silly lockFile c616cdbd-owplayer-hlsjs-1-1-1-package-tgz tar:///root/.npm/flowplayer-hlsjs/1.1.1/package.tgz
+126 silly lockFile c616cdbd-owplayer-hlsjs-1-1-1-package-tgz tar:///root/.npm/flowplayer-hlsjs/1.1.1/package.tgz
+127 info preinstall flowplayer-hlsjs@1.1.1
+128 verbose readDependencies using package.json deps
+129 verbose readDependencies using package.json deps
+130 verbose cache add [ 'text-encoding@https://github.com/aiham/text-encoding#remove-encoding-indexes',
+130 verbose cache add   null ]
+131 verbose cache add name=undefined spec="text-encoding@https://github.com/aiham/text-encoding#remove-encoding-indexes" args=["text-encoding@https://github.com/aiham/text-encoding#remove-encoding-indexes",null]
+132 verbose parsed url { protocol: null,
+132 verbose parsed url   slashes: null,
+132 verbose parsed url   auth: null,
+132 verbose parsed url   host: null,
+132 verbose parsed url   port: null,
+132 verbose parsed url   hostname: null,
+132 verbose parsed url   hash: '#remove-encoding-indexes',
+132 verbose parsed url   search: null,
+132 verbose parsed url   query: null,
+132 verbose parsed url   pathname: 'text-encoding@https://github.com/aiham/text-encoding',
+132 verbose parsed url   path: 'text-encoding@https://github.com/aiham/text-encoding',
+132 verbose parsed url   href: 'text-encoding@https://github.com/aiham/text-encoding#remove-encoding-indexes' }
+133 verbose cache add name="text-encoding" spec="https://github.com/aiham/text-encoding#remove-encoding-indexes" args=["text-encoding","https://github.com/aiham/text-encoding#remove-encoding-indexes"]
+134 verbose parsed url { protocol: 'https:',
+134 verbose parsed url   slashes: true,
+134 verbose parsed url   auth: null,
+134 verbose parsed url   host: 'github.com',
+134 verbose parsed url   port: null,
+134 verbose parsed url   hostname: 'github.com',
+134 verbose parsed url   hash: '#remove-encoding-indexes',
+134 verbose parsed url   search: null,
+134 verbose parsed url   query: null,
+134 verbose parsed url   pathname: '/aiham/text-encoding',
+134 verbose parsed url   path: '/aiham/text-encoding',
+134 verbose parsed url   href: 'https://github.com/aiham/text-encoding#remove-encoding-indexes' }
+135 silly lockFile 3607073d-encoding-remove-encoding-indexes https://github.com/aiham/text-encoding#remove-encoding-indexes
+136 verbose lock https://github.com/aiham/text-encoding#remove-encoding-indexes /root/.npm/3607073d-encoding-remove-encoding-indexes.lock
+137 verbose cache add [ 'hls.js@0.8.4', null ]
+138 verbose cache add name=undefined spec="hls.js@0.8.4" args=["hls.js@0.8.4",null]
+139 verbose parsed url { protocol: null,
+139 verbose parsed url   slashes: null,
+139 verbose parsed url   auth: null,
+139 verbose parsed url   host: null,
+139 verbose parsed url   port: null,
+139 verbose parsed url   hostname: null,
+139 verbose parsed url   hash: null,
+139 verbose parsed url   search: null,
+139 verbose parsed url   query: null,
+139 verbose parsed url   pathname: 'hls.js@0.8.4',
+139 verbose parsed url   path: 'hls.js@0.8.4',
+139 verbose parsed url   href: 'hls.js@0.8.4' }
+140 verbose cache add name="hls.js" spec="0.8.4" args=["hls.js","0.8.4"]
+141 verbose parsed url { protocol: null,
+141 verbose parsed url   slashes: null,
+141 verbose parsed url   auth: null,
+141 verbose parsed url   host: null,
+141 verbose parsed url   port: null,
+141 verbose parsed url   hostname: null,
+141 verbose parsed url   hash: null,
+141 verbose parsed url   search: null,
+141 verbose parsed url   query: null,
+141 verbose parsed url   pathname: '0.8.4',
+141 verbose parsed url   path: '0.8.4',
+141 verbose parsed url   href: '0.8.4' }
+142 verbose addNamed [ 'hls.js', '0.8.4' ]
+143 verbose addNamed [ '0.8.4', '0.8.4' ]
+144 silly lockFile f5b17bd3-hls-js-0-8-4 hls.js@0.8.4
+145 verbose lock hls.js@0.8.4 /root/.npm/f5b17bd3-hls-js-0-8-4.lock
+146 verbose cache add [ 'webworkify-webpack@^1.0.4', null ]
+147 verbose cache add name=undefined spec="webworkify-webpack@^1.0.4" args=["webworkify-webpack@^1.0.4",null]
+148 verbose parsed url { protocol: null,
+148 verbose parsed url   slashes: null,
+148 verbose parsed url   auth: null,
+148 verbose parsed url   host: null,
+148 verbose parsed url   port: null,
+148 verbose parsed url   hostname: null,
+148 verbose parsed url   hash: null,
+148 verbose parsed url   search: null,
+148 verbose parsed url   query: null,
+148 verbose parsed url   pathname: 'webworkify-webpack@^1.0.4',
+148 verbose parsed url   path: 'webworkify-webpack@^1.0.4',
+148 verbose parsed url   href: 'webworkify-webpack@^1.0.4' }
+149 verbose cache add name="webworkify-webpack" spec="^1.0.4" args=["webworkify-webpack","^1.0.4"]
+150 verbose parsed url { protocol: null,
+150 verbose parsed url   slashes: null,
+150 verbose parsed url   auth: null,
+150 verbose parsed url   host: null,
+150 verbose parsed url   port: null,
+150 verbose parsed url   hostname: null,
+150 verbose parsed url   hash: null,
+150 verbose parsed url   search: null,
+150 verbose parsed url   query: null,
+150 verbose parsed url   pathname: '^1.0.4',
+150 verbose parsed url   path: '^1.0.4',
+150 verbose parsed url   href: '^1.0.4' }
+151 verbose addNamed [ 'webworkify-webpack', '^1.0.4' ]
+152 verbose addNamed [ null, '>=1.0.4-0 <2.0.0-0' ]
+153 silly lockFile 8e183ef3-webworkify-webpack-1-0-4 webworkify-webpack@^1.0.4
+154 verbose lock webworkify-webpack@^1.0.4 /root/.npm/8e183ef3-webworkify-webpack-1-0-4.lock
+155 verbose addRemoteTarball [ 'https://github.com/aiham/text-encoding#remove-encoding-indexes',
+155 verbose addRemoteTarball   null ]
+156 info retry fetch attempt 1 at 02:32:11
+157 verbose fetch to= /root/tmp/npm-1452-XGJX8dwv/1516779131831-0.37846570112742484/tmp.tgz
+158 silly addNameRange { name: 'webworkify-webpack',
+158 silly addNameRange   range: '>=1.0.4-0 <2.0.0-0',
+158 silly addNameRange   hasData: false }
+159 verbose url raw hls.js/0.8.4
+160 verbose url resolving [ 'https://registry.npmjs.org/', './hls.js/0.8.4' ]
+161 verbose url resolved https://registry.npmjs.org/hls.js/0.8.4
+162 info trying registry request attempt 1 at 02:32:11
+163 http GET https://registry.npmjs.org/hls.js/0.8.4
+164 verbose url raw webworkify-webpack
+165 verbose url resolving [ 'https://registry.npmjs.org/', './webworkify-webpack' ]
+166 verbose url resolved https://registry.npmjs.org/webworkify-webpack
+167 info trying registry request attempt 1 at 02:32:11
+168 http GET https://registry.npmjs.org/webworkify-webpack
+169 http GET https://github.com/aiham/text-encoding#remove-encoding-indexes
+170 http 200 https://registry.npmjs.org/webworkify-webpack
+171 silly registry.get cb [ 200,
+171 silly registry.get   { 'content-type': 'application/json; charset=UTF-8',
+171 silly registry.get     server: 'UploadServer',
+171 silly registry.get     'cache-control': 'max-age=300',
+171 silly registry.get     'last-modified': 'Tue, 17 Oct 2017 14:40:01 GMT',
+171 silly registry.get     etag: '"59e61641-ab20"',
+171 silly registry.get     'content-length': '43808',
+171 silly registry.get     'accept-ranges': 'bytes',
+171 silly registry.get     date: 'Wed, 24 Jan 2018 07:32:11 GMT',
+171 silly registry.get     via: '1.1 varnish',
+171 silly registry.get     age: '0',
+171 silly registry.get     connection: 'keep-alive',
+171 silly registry.get     'x-served-by': 'cache-mdw17320-MDW',
+171 silly registry.get     'x-cache': 'MISS',
+171 silly registry.get     'x-cache-hits': '0',
+171 silly registry.get     'x-timer': 'S1516779132.906568,VS0,VE41',
+171 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+172 silly addNameRange number 2 { name: 'webworkify-webpack',
+172 silly addNameRange   range: '>=1.0.4-0 <2.0.0-0',
+172 silly addNameRange   hasData: true }
+173 silly addNameRange versions [ 'webworkify-webpack',
+173 silly addNameRange   [ '1.0.0',
+173 silly addNameRange     '1.0.1',
+173 silly addNameRange     '1.0.2',
+173 silly addNameRange     '1.0.3',
+173 silly addNameRange     '1.0.4',
+173 silly addNameRange     '1.0.5',
+173 silly addNameRange     '1.0.6',
+173 silly addNameRange     '1.1.0',
+173 silly addNameRange     '1.1.1',
+173 silly addNameRange     '1.1.2',
+173 silly addNameRange     '1.1.3',
+173 silly addNameRange     '1.1.4',
+173 silly addNameRange     '1.1.5',
+173 silly addNameRange     '1.1.6',
+173 silly addNameRange     '1.1.7',
+173 silly addNameRange     '1.1.8',
+173 silly addNameRange     '2.0.0',
+173 silly addNameRange     '2.0.1',
+173 silly addNameRange     '2.0.2',
+173 silly addNameRange     '2.0.3',
+173 silly addNameRange     '2.0.4',
+173 silly addNameRange     '2.0.5',
+173 silly addNameRange     '2.0.6',
+173 silly addNameRange     '2.1.0' ] ]
+174 verbose addNamed [ 'webworkify-webpack', '1.1.8' ]
+175 verbose addNamed [ '1.1.8', '1.1.8' ]
+176 silly lockFile e32ec7db-webworkify-webpack-1-1-8 webworkify-webpack@1.1.8
+177 verbose lock webworkify-webpack@1.1.8 /root/.npm/e32ec7db-webworkify-webpack-1-1-8.lock
+178 silly lockFile 1c5845a4-ack-webworkify-webpack-1-1-8-tgz https://registry.npmjs.org/webworkify-webpack/-/webworkify-webpack-1.1.8.tgz
+179 verbose lock https://registry.npmjs.org/webworkify-webpack/-/webworkify-webpack-1.1.8.tgz /root/.npm/1c5845a4-ack-webworkify-webpack-1-1-8-tgz.lock
+180 verbose addRemoteTarball [ 'https://registry.npmjs.org/webworkify-webpack/-/webworkify-webpack-1.1.8.tgz',
+180 verbose addRemoteTarball   'e8ea6d5dfe8c17b2f86933dc7088ba6539222d7e' ]
+181 info retry fetch attempt 1 at 02:32:12
+182 verbose fetch to= /root/tmp/npm-1452-XGJX8dwv/1516779132048-0.2788023662287742/tmp.tgz
+183 http GET https://registry.npmjs.org/webworkify-webpack/-/webworkify-webpack-1.1.8.tgz
+184 http 200 https://registry.npmjs.org/webworkify-webpack/-/webworkify-webpack-1.1.8.tgz
+185 verbose tar unpack /root/tmp/npm-1452-XGJX8dwv/1516779132048-0.2788023662287742/tmp.tgz
+186 silly lockFile e9e12811-32048-0-2788023662287742-package tar:///root/tmp/npm-1452-XGJX8dwv/1516779132048-0.2788023662287742/package
+187 verbose lock tar:///root/tmp/npm-1452-XGJX8dwv/1516779132048-0.2788023662287742/package /root/.npm/e9e12811-32048-0-2788023662287742-package.lock
+188 silly lockFile b3d54c31-32048-0-2788023662287742-tmp-tgz tar:///root/tmp/npm-1452-XGJX8dwv/1516779132048-0.2788023662287742/tmp.tgz
+189 verbose lock tar:///root/tmp/npm-1452-XGJX8dwv/1516779132048-0.2788023662287742/tmp.tgz /root/.npm/b3d54c31-32048-0-2788023662287742-tmp-tgz.lock
+190 silly gunzTarPerm modes [ '755', '644' ]
+191 silly gunzTarPerm extractEntry package.json
+192 silly gunzTarPerm extractEntry .npmignore
+193 silly gunzTarPerm extractEntry README.md
+194 http 200 https://registry.npmjs.org/hls.js/0.8.4
+195 silly registry.get cb [ 200,
+195 silly registry.get   { 'x-couchdb-body-time': '0',
+195 silly registry.get     'x-couch-request-id': 'undefined',
+195 silly registry.get     server: 'CouchDB/2.1.1 (Erlang OTP/R16B03)',
+195 silly registry.get     etag: '"B9TLNBXINPRZH1C08CIYSSRI"',
+195 silly registry.get     'content-type': 'application/json',
+195 silly registry.get     'cache-control': 'max-age=300',
+195 silly registry.get     'content-length': '2241',
+195 silly registry.get     'accept-ranges': 'bytes',
+195 silly registry.get     date: 'Wed, 24 Jan 2018 07:32:12 GMT',
+195 silly registry.get     via: '1.1 varnish',
+195 silly registry.get     age: '0',
+195 silly registry.get     connection: 'keep-alive',
+195 silly registry.get     'x-served-by': 'cache-mdw17327-MDW',
+195 silly registry.get     'x-cache': 'MISS',
+195 silly registry.get     'x-cache-hits': '0',
+195 silly registry.get     'x-timer': 'S1516779132.906280,VS0,VE170',
+195 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+196 silly gunzTarPerm extractEntry index.js
+197 silly gunzTarPerm extractEntry example/common-js-worker.js
+198 silly gunzTarPerm extractEntry example/es6-worker.js
+199 silly gunzTarPerm extractEntry example/main.js
+200 silly lockFile 60f2ad08-pmjs-org-hls-js-hls-js-0-8-4-tgz https://registry.npmjs.org/hls.js/-/hls.js-0.8.4.tgz
+201 verbose lock https://registry.npmjs.org/hls.js/-/hls.js-0.8.4.tgz /root/.npm/60f2ad08-pmjs-org-hls-js-hls-js-0-8-4-tgz.lock
+202 verbose addRemoteTarball [ 'https://registry.npmjs.org/hls.js/-/hls.js-0.8.4.tgz',
+202 verbose addRemoteTarball   '4cc31e66f4c6ccd3b686ce2fbbe2d9be20de04b9' ]
+203 info retry fetch attempt 1 at 02:32:12
+204 verbose fetch to= /root/tmp/npm-1452-XGJX8dwv/1516779132134-0.2703027883544564/tmp.tgz
+205 silly gunzTarPerm extractEntry example/webpack.config.js
+206 silly gunzTarPerm extractEntry index.html
+207 http GET https://registry.npmjs.org/hls.js/-/hls.js-0.8.4.tgz
+208 silly lockFile e9e12811-32048-0-2788023662287742-package tar:///root/tmp/npm-1452-XGJX8dwv/1516779132048-0.2788023662287742/package
+209 silly lockFile e9e12811-32048-0-2788023662287742-package tar:///root/tmp/npm-1452-XGJX8dwv/1516779132048-0.2788023662287742/package
+210 silly lockFile b3d54c31-32048-0-2788023662287742-tmp-tgz tar:///root/tmp/npm-1452-XGJX8dwv/1516779132048-0.2788023662287742/tmp.tgz
+211 silly lockFile b3d54c31-32048-0-2788023662287742-tmp-tgz tar:///root/tmp/npm-1452-XGJX8dwv/1516779132048-0.2788023662287742/tmp.tgz
+212 verbose tar pack [ '/root/.npm/webworkify-webpack/1.1.8/package.tgz',
+212 verbose tar pack   '/root/tmp/npm-1452-XGJX8dwv/1516779132048-0.2788023662287742/package' ]
+213 verbose tarball /root/.npm/webworkify-webpack/1.1.8/package.tgz
+214 verbose folder /root/tmp/npm-1452-XGJX8dwv/1516779132048-0.2788023662287742/package
+215 silly lockFile e9e12811-32048-0-2788023662287742-package tar:///root/tmp/npm-1452-XGJX8dwv/1516779132048-0.2788023662287742/package
+216 verbose lock tar:///root/tmp/npm-1452-XGJX8dwv/1516779132048-0.2788023662287742/package /root/.npm/e9e12811-32048-0-2788023662287742-package.lock
+217 silly lockFile 0ec9689a-orkify-webpack-1-1-8-package-tgz tar:///root/.npm/webworkify-webpack/1.1.8/package.tgz
+218 verbose lock tar:///root/.npm/webworkify-webpack/1.1.8/package.tgz /root/.npm/0ec9689a-orkify-webpack-1-1-8-package-tgz.lock
+219 silly lockFile e9e12811-32048-0-2788023662287742-package tar:///root/tmp/npm-1452-XGJX8dwv/1516779132048-0.2788023662287742/package
+220 silly lockFile e9e12811-32048-0-2788023662287742-package tar:///root/tmp/npm-1452-XGJX8dwv/1516779132048-0.2788023662287742/package
+221 silly lockFile 0ec9689a-orkify-webpack-1-1-8-package-tgz tar:///root/.npm/webworkify-webpack/1.1.8/package.tgz
+222 silly lockFile 0ec9689a-orkify-webpack-1-1-8-package-tgz tar:///root/.npm/webworkify-webpack/1.1.8/package.tgz
+223 silly lockFile 7bc131a4-webworkify-webpack-1-1-8-package /root/.npm/webworkify-webpack/1.1.8/package
+224 verbose lock /root/.npm/webworkify-webpack/1.1.8/package /root/.npm/7bc131a4-webworkify-webpack-1-1-8-package.lock
+225 silly lockFile 7bc131a4-webworkify-webpack-1-1-8-package /root/.npm/webworkify-webpack/1.1.8/package
+226 silly lockFile 7bc131a4-webworkify-webpack-1-1-8-package /root/.npm/webworkify-webpack/1.1.8/package
+227 verbose tar unpack /root/.npm/webworkify-webpack/1.1.8/package.tgz
+228 silly lockFile 2327acd7-webworkify-webpack-1-1-8-package tar:///root/.npm/webworkify-webpack/1.1.8/package
+229 verbose lock tar:///root/.npm/webworkify-webpack/1.1.8/package /root/.npm/2327acd7-webworkify-webpack-1-1-8-package.lock
+230 silly lockFile 0ec9689a-orkify-webpack-1-1-8-package-tgz tar:///root/.npm/webworkify-webpack/1.1.8/package.tgz
+231 verbose lock tar:///root/.npm/webworkify-webpack/1.1.8/package.tgz /root/.npm/0ec9689a-orkify-webpack-1-1-8-package-tgz.lock
+232 silly gunzTarPerm modes [ '755', '644' ]
+233 silly gunzTarPerm extractEntry package.json
+234 silly gunzTarPerm extractEntry .npmignore
+235 silly gunzTarPerm extractEntry README.md
+236 silly gunzTarPerm extractEntry index.js
+237 silly gunzTarPerm extractEntry example/common-js-worker.js
+238 silly gunzTarPerm extractEntry example/es6-worker.js
+239 silly gunzTarPerm extractEntry example/main.js
+240 silly gunzTarPerm extractEntry example/webpack.config.js
+241 silly gunzTarPerm extractEntry index.html
+242 silly lockFile 2327acd7-webworkify-webpack-1-1-8-package tar:///root/.npm/webworkify-webpack/1.1.8/package
+243 silly lockFile 2327acd7-webworkify-webpack-1-1-8-package tar:///root/.npm/webworkify-webpack/1.1.8/package
+244 silly lockFile 0ec9689a-orkify-webpack-1-1-8-package-tgz tar:///root/.npm/webworkify-webpack/1.1.8/package.tgz
+245 silly lockFile 0ec9689a-orkify-webpack-1-1-8-package-tgz tar:///root/.npm/webworkify-webpack/1.1.8/package.tgz
+246 verbose chmod /root/.npm/webworkify-webpack/1.1.8/package.tgz 644
+247 verbose chown /root/.npm/webworkify-webpack/1.1.8/package.tgz [ 0, 0 ]
+248 silly lockFile 1c5845a4-ack-webworkify-webpack-1-1-8-tgz https://registry.npmjs.org/webworkify-webpack/-/webworkify-webpack-1.1.8.tgz
+249 silly lockFile 1c5845a4-ack-webworkify-webpack-1-1-8-tgz https://registry.npmjs.org/webworkify-webpack/-/webworkify-webpack-1.1.8.tgz
+250 silly lockFile e32ec7db-webworkify-webpack-1-1-8 webworkify-webpack@1.1.8
+251 silly lockFile e32ec7db-webworkify-webpack-1-1-8 webworkify-webpack@1.1.8
+252 silly lockFile 8e183ef3-webworkify-webpack-1-0-4 webworkify-webpack@^1.0.4
+253 silly lockFile 8e183ef3-webworkify-webpack-1-0-4 webworkify-webpack@^1.0.4
+254 http 200 https://github.com/aiham/text-encoding#remove-encoding-indexes
+255 verbose tar unpack /root/tmp/npm-1452-XGJX8dwv/1516779131831-0.37846570112742484/tmp.tgz
+256 silly lockFile e7f173ed-1831-0-37846570112742484-package tar:///root/tmp/npm-1452-XGJX8dwv/1516779131831-0.37846570112742484/package
+257 verbose lock tar:///root/tmp/npm-1452-XGJX8dwv/1516779131831-0.37846570112742484/package /root/.npm/e7f173ed-1831-0-37846570112742484-package.lock
+258 silly lockFile ac11491b-1831-0-37846570112742484-tmp-tgz tar:///root/tmp/npm-1452-XGJX8dwv/1516779131831-0.37846570112742484/tmp.tgz
+259 verbose lock tar:///root/tmp/npm-1452-XGJX8dwv/1516779131831-0.37846570112742484/tmp.tgz /root/.npm/ac11491b-1831-0-37846570112742484-tmp-tgz.lock
+260 silly gunzTarPerm modes [ '755', '644' ]
+261 error not a package /root/tmp/npm-1452-XGJX8dwv/1516779131831-0.37846570112742484/tmp.tgz
+262 silly lockFile e7f173ed-1831-0-37846570112742484-package tar:///root/tmp/npm-1452-XGJX8dwv/1516779131831-0.37846570112742484/package
+263 silly lockFile e7f173ed-1831-0-37846570112742484-package tar:///root/tmp/npm-1452-XGJX8dwv/1516779131831-0.37846570112742484/package
+264 silly lockFile ac11491b-1831-0-37846570112742484-tmp-tgz tar:///root/tmp/npm-1452-XGJX8dwv/1516779131831-0.37846570112742484/tmp.tgz
+265 silly lockFile ac11491b-1831-0-37846570112742484-tmp-tgz tar:///root/tmp/npm-1452-XGJX8dwv/1516779131831-0.37846570112742484/tmp.tgz
+266 silly lockFile 3607073d-encoding-remove-encoding-indexes https://github.com/aiham/text-encoding#remove-encoding-indexes
+267 silly lockFile 3607073d-encoding-remove-encoding-indexes https://github.com/aiham/text-encoding#remove-encoding-indexes
+268 verbose about to build /var/www/FlowPlayer/node_modules/flowplayer-hlsjs
+269 info /var/www/FlowPlayer/node_modules/flowplayer-hlsjs unbuild
+270 info preuninstall flowplayer-hlsjs@1.1.1
+271 info uninstall flowplayer-hlsjs@1.1.1
+272 verbose true,/var/www/FlowPlayer/node_modules,/var/www/FlowPlayer/node_modules unbuild flowplayer-hlsjs@1.1.1
+273 info postuninstall flowplayer-hlsjs@1.1.1
+274 error Error: ENOENT, open '/root/tmp/npm-1452-XGJX8dwv/1516779131831-0.37846570112742484/package/package.json'
+275 error If you need help, you may report this log at:
+275 error     <http://github.com/isaacs/npm/issues>
+275 error or email it to:
+275 error     <npm-@googlegroups.com>
+276 error System Linux 3.13.0-137-generic
+277 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "--save" "flowplayer/flowplayer-hlsjs"
+278 error cwd /var/www/FlowPlayer
+279 error node -v v0.10.25
+280 error npm -v 1.3.10
+281 error path /root/tmp/npm-1452-XGJX8dwv/1516779131831-0.37846570112742484/package/package.json
+282 error code ENOENT
+283 error errno 34
+284 verbose exit [ 34, true ]

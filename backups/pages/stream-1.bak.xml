@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Sat, 17 Feb 2018 02:36:47 -0500</pubDate><title>Stream [Copy]</title><url>stream-1</url><meta></meta><metad></metad><menu>Stream</menu><menuOrder>2</menuOrder><menuStatus>Y</menuStatus><template>simple.php</template><parent></parent><content>&amp;lt;p&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;http://scootalooandsweetiebelle.network/data/uploads/banner.png&amp;quot; /&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;
+	&amp;lt;video class=&amp;quot;video-js vjs-default-skin&amp;quot; controls=&amp;quot;&amp;quot; height=&amp;quot;640&amp;quot; width=&amp;quot;960&amp;quot;&amp;gt;&amp;lt;source src=&amp;quot;/Pony/stream/stream.m3u8&amp;quot; type=&amp;quot;application/x-mpegurl&amp;quot; /&amp;gt;&amp;lt;/video&amp;gt;
+&amp;lt;/p&amp;gt;
+&amp;lt;script&amp;gt;
+    (function(){
+        window.hola_player();
+    })();
+  &amp;lt;/script&amp;gt;
+
+&amp;lt;p&amp;gt;&amp;lt;iframe frameborder=&amp;quot;0&amp;quot; height=&amp;quot;600&amp;quot; src=&amp;quot;https://titanembeds.com/embed/307975431448035328?defaultchannel=346452840782364682&amp;quot; width=&amp;quot;800&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;iframe src=&amp;quot;http://www.ustream.tv/embed/22900916?html5ui&amp;quot; style=&amp;quot;border: 0 none transparent;&amp;quot;  webkitallowfullscreen allowfullscreen frameborder=&amp;quot;no&amp;quot; width=&amp;quot;700&amp;quot; height=&amp;quot;393&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;</content><private></private><author>tsaukpaetra</author></item>

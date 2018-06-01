@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Fri, 09 Feb 2018 23:26:48 -0700</pubDate><title><![CDATA[Hola]]></title><url><![CDATA[hola]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Stream]]></menu><menuOrder><![CDATA[2]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[simple.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://scootalooandsweetiebelle.network/data/uploads/banner.png&quot; /&gt;&lt;/p&gt;
+
+
+&lt;p&gt;
+	&lt;video class=&quot;video-js vjs-default-skin&quot; controls=&quot;&quot; height=&quot;100%&quot; width=&quot;100%&quot;&gt;&lt;source src=&quot;/Pony/stream/stream.m3u8&quot; type=&quot;application/x-mpegurl&quot; /&gt;&lt;/video&gt;
+&lt;/p&gt;
+&lt;script&gt;
+    (function(){
+        window.hola_player();
+    })();
+  &lt;/script&gt;]]></content><private><![CDATA[]]></private><author><![CDATA[tsaukpaetra]]></author></item>
